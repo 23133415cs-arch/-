@@ -99,7 +99,7 @@ export default function LoginPage() {
             {/* الهوية البصرية وشعار الهيئة في النموذج */}
             <div className="authority-form-header">
               <img
-                src="/logo.png"
+                src="./logo.png"
                 alt="شعار الهيئة الوطنية لخدمات نقل الدم"
                 className="authority-form-logo-img"
               />
@@ -222,7 +222,7 @@ export default function LoginPage() {
             {/* الشعار واسم الهيئة */}
             <div className="login-brand-logo">
               <div className="brand-icon-box">
-                <img src="/logo.png" alt="شعار الهيئة الوطنية لخدمات نقل الدم" />
+                <img src="./logo.png" alt="شعار الهيئة الوطنية لخدمات نقل الدم" />
               </div>
               <div className="brand-name-box">
                 <span className="brand-name-text">
