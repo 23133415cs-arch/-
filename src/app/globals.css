@@ -1545,7 +1545,10 @@ img {
 /* القسم الأيمن - الصورة والبطاقة الترويجية بهوية الهيئة */
 .login-hero-container {
   position: relative;
-  background: url('/blood-bank-hero.png') center/cover no-repeat;
+  background-color: #1a0507;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 44px;
   display: flex;
   flex-direction: column;

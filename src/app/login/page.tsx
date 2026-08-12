@@ -216,7 +216,7 @@ export default function LoginPage() {
         </div>
 
         {/* القسم الأيمن - البانر والصورة بهوية الهيئة */}
-        <div className="login-hero-container">
+        <div className="login-hero-container" style={{ backgroundImage: "url('./blood-bank-hero.png')" }}>
           <div className="login-hero-overlay" />
           <div className="login-hero-content">
             {/* الشعار واسم الهيئة */}
