@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "next build && gh-pages -d out",
+    "sync": "git add . && git commit -m \"Update WMS project\" && git push origin main && npm run deploy",
     "start": "next start",
     "lint": "eslint"
   },
@@ -28,6 +30,7 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
+    "gh-pages": "^6.3.0",
     "typescript": "^5"
   }
 }
